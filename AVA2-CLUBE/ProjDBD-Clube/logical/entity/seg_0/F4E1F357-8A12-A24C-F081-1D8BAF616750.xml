@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4E1F357-8A12-A24C-F081-1D8BAF616750" name="Endereco">
+<createdBy>arthur.araujo</createdBy>
+<createdTime>2025-05-19 23:53:34 UTC</createdTime>
+<ownerDesignName>ProjDBD-Clube</ownerDesignName>
+<engineerTo>
+<item key="20EDC466-D188-A3F0-8A76-DD12F77A753F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idEndereco" id="CA72708D-EDE4-2240-5214-E811A3CA60A0">
+<createdBy>arthur.araujo</createdBy>
+<createdTime>2025-05-19 23:53:40 UTC</createdTime>
+<ownerDesignName>ProjDBD-Clube</ownerDesignName>
+<engineerTo>
+<item key="20EDC466-D188-A3F0-8A76-DD12F77A753F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rua" id="19293121-203A-85C7-59A7-9661D4733A8B">
+<createdBy>arthur.araujo</createdBy>
+<createdTime>2025-05-19 23:55:37 UTC</createdTime>
+<ownerDesignName>ProjDBD-Clube</ownerDesignName>
+<engineerTo>
+<item key="20EDC466-D188-A3F0-8A76-DD12F77A753F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="0D0D58B6-8F57-1750-2B52-24F7E050160E">
+<createdBy>arthur.araujo</createdBy>
+<createdTime>2025-05-19 23:55:59 UTC</createdTime>
+<ownerDesignName>ProjDBD-Clube</ownerDesignName>
+<engineerTo>
+<item key="20EDC466-D188-A3F0-8A76-DD12F77A753F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="3614A80D-169B-CD6A-0EA3-8ACE16A6098B">
+<createdBy>arthur.araujo</createdBy>
+<createdTime>2025-05-19 23:56:12 UTC</createdTime>
+<ownerDesignName>ProjDBD-Clube</ownerDesignName>
+<engineerTo>
+<item key="20EDC466-D188-A3F0-8A76-DD12F77A753F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="46B5144D-AEFF-F43C-7151-2E00F19E7636">
+<createdBy>arthur.araujo</createdBy>
+<createdTime>2025-05-19 23:56:26 UTC</createdTime>
+<ownerDesignName>ProjDBD-Clube</ownerDesignName>
+<engineerTo>
+<item key="20EDC466-D188-A3F0-8A76-DD12F77A753F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="8C706FCE-B4AD-FCEB-7352-B02E027E4DD9">
+<createdBy>arthur.araujo</createdBy>
+<createdTime>2025-05-19 23:56:41 UTC</createdTime>
+<ownerDesignName>ProjDBD-Clube</ownerDesignName>
+<engineerTo>
+<item key="20EDC466-D188-A3F0-8A76-DD12F77A753F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="3A059110-2B41-AA5C-5825-E29D0E7C9AF3">
+<createdBy>arthur.araujo</createdBy>
+<createdTime>2025-05-19 23:57:01 UTC</createdTime>
+<ownerDesignName>ProjDBD-Clube</ownerDesignName>
+<engineerTo>
+<item key="20EDC466-D188-A3F0-8A76-DD12F77A753F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAssociado" id="AE983D6B-6EA9-5E68-1D88-5FF79554C6FE">
+<createdBy>arthur.araujo</createdBy>
+<createdTime>2025-05-19 23:58:12 UTC</createdTime>
+<generatorID>4375F4B6-BF6E-E51C-B069-011AE516CFD3</generatorID>
+<ownerDesignName>ProjDBD-Clube</ownerDesignName>
+<engineerTo>
+<item key="20EDC466-D188-A3F0-8A76-DD12F77A753F" value="true"/>
+</engineerTo>
+<referedAttribute>CFE02AEA-6717-F551-7134-B312FC829C49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdDependente" id="E94008FB-9064-DF8E-E1BA-D7B8DCA05658">
+<createdBy>arthur.araujo</createdBy>
+<createdTime>2025-05-19 23:58:17 UTC</createdTime>
+<generatorID>6B57E74E-8460-7482-7698-F32558835C2A</generatorID>
+<ownerDesignName>ProjDBD-Clube</ownerDesignName>
+<engineerTo>
+<item key="20EDC466-D188-A3F0-8A76-DD12F77A753F" value="true"/>
+</engineerTo>
+<referedAttribute>236092CF-B2D5-4CE5-BB4F-6D75AFE967B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D0A0EB9-428A-CC1F-9691-53CD7559D4BC" name="Endereco PK">
+<createdBy>arthur.araujo</createdBy>
+<createdTime>2025-05-19 23:55:35 UTC</createdTime>
+<ownerDesignName>ProjDBD-Clube</ownerDesignName>
+<engineerTo>
+<item key="20EDC466-D188-A3F0-8A76-DD12F77A753F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA72708D-EDE4-2240-5214-E811A3CA60A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
